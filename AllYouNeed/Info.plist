@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.42169039348-nmvpsm7ol9a6kec30asbe9v2c9rmvnur</string>
+			</array>
+		</dict>
+	</array>
+	<key>Currency_API_KEY</key>
+	<string>a97f3cf8c53299a440a71112648c5644</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>News_API_KEY</key>
+	<string>cb1706b67ac147e28602bf8a49c6f836</string>
+	<key>TMDB_API_KEY</key>
+	<string>ef09359added93fcc707de45de6ddce4</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+</dict>
+</plist>

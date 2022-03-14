@@ -1,0 +1,564 @@
+{
+    "weathers": [
+        {
+            "coord": {
+                "lon": -80.1918,
+                "lat": 25.7617
+            },
+            "weather": [
+                {
+                    "id": 311,
+                    "main": "Rainy",
+                    "description": "Heavy drizzle",
+                    "icon": "09n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 298.86,
+                "feels_like": 298.15,
+                "temp_min": 298.26,
+                "temp_max": 298.37,
+                "pressure": 1991,
+                "humidity": 99
+            },
+            "visibility": 2000,
+            "wind": {
+                "speed": 9.9,
+                "deg": 99
+            },
+            "clouds": {
+                "all": 99
+            },
+            "dt": 1599625856,
+            "sys": {
+                "type": 1,
+                "id": 4869,
+                "country": "US",
+                "sunrise": 1599564254,
+                "sunset": 1599610338
+            },
+            "timezone": -18000,
+            "id": 4887999,
+            "name": "Miami",
+            "cod": 299
+        },
+        {
+            "coord": {
+                "lon": -73.9665,
+                "lat": 40.7812
+            },
+            "weather": [
+                {
+                    "id": 310,
+                    "main": "Thunder",
+                    "description": "light intensity Thunder",
+                    "icon": "09n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 281.86,
+                "feels_like": 281.15,
+                "temp_min": 281.26,
+                "temp_max": 281.37,
+                "pressure": 1991,
+                "humidity": 78
+            },
+            "visibility": 9000,
+            "wind": {
+                "speed": 2.2,
+                "deg": 40
+            },
+            "clouds": {
+                "all": 80
+            },
+            "dt": 1599625856,
+            "sys": {
+                "type": 1,
+                "id": 4863,
+                "country": "US",
+                "sunrise": 1599564254,
+                "sunset": 1599610338
+            },
+            "timezone": -18000,
+            "id": 4887392,
+            "name": "Central Park",
+            "cod": 210
+        },
+        {
+            "coord": {
+                "lon": -73.9712,
+                "lat": 40.7831
+            },
+            "weather": [
+                {
+                    "id": 308,
+                    "main": "Rainy",
+                    "description": "light intensity Rain",
+                    "icon": "09n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 291.86,
+                "feels_like": 291.15,
+                "temp_min": 291.26,
+                "temp_max": 291.37,
+                "pressure": 1999,
+                "humidity": 89
+            },
+            "visibility": 900,
+            "wind": {
+                "speed": 5.5,
+                "deg": 80
+            },
+            "clouds": {
+                "all": 60
+            },
+            "dt": 1599625856,
+            "sys": {
+                "type": 1,
+                "id": 4862,
+                "country": "US",
+                "sunrise": 1599564254,
+                "sunset": 1599610338
+            },
+            "timezone": -18000,
+            "id": 4887399,
+            "name": "Manhattan",
+            "cod": 209
+        },
+        {
+            "coord": {
+                "lon": -118.2437,
+                "lat": 34.0522
+            },
+            "weather": [
+                {
+                    "id": 307,
+                    "main": "Thunder",
+                    "description": "Thunder intensity drizzle",
+                    "icon": "09n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 278.86,
+                "feels_like": 278.15,
+                "temp_min": 279.26,
+                "temp_max": 270.37,
+                "pressure": 921,
+                "humidity": 77
+            },
+            "visibility": 6000,
+            "wind": {
+                "speed": 1.6,
+                "deg": 10
+            },
+            "clouds": {
+                "all": 20
+            },
+            "dt": 1599625856,
+            "sys": {
+                "type": 7,
+                "id": 4871,
+                "country": "US",
+                "sunrise": 1599564254,
+                "sunset": 1599610338
+            },
+            "timezone": -18000,
+            "id": 4887397,
+            "name": "Los Angeles",
+            "cod": 207
+        },
+        {
+            "coord": {
+                "lon": -119.4179,
+                "lat": 36.7783
+            },
+            "weather": [
+                {
+                    "id": 306,
+                    "main": "Thunder",
+                    "description": "light intensity drizzle",
+                    "icon": "09n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 290.86,
+                "feels_like": 295.15,
+                "temp_min": 295.26,
+                "temp_max": 295.37,
+                "pressure": 1121,
+                "humidity": 45
+            },
+            "visibility": 800,
+            "wind": {
+                "speed": 3.3,
+                "deg": 78
+            },
+            "clouds": {
+                "all": 91
+            },
+            "dt": 1599625856,
+            "sys": {
+                "type": 6,
+                "id": 4866,
+                "country": "US",
+                "sunrise": 1599564254,
+                "sunset": 1599610338
+            },
+            "timezone": -18000,
+            "id": 4887396,
+            "name": "California",
+            "cod": 206
+        },
+        {
+            "coord": {
+                "lon": -73.9442,
+                "lat": 40.6782
+            },
+            "weather": [
+                {
+                    "id": 305,
+                    "main": "Medium Drizzle",
+                    "description": "Medium intensity drizzle",
+                    "icon": "09n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 295.86,
+                "feels_like": 295.15,
+                "temp_min": 295.26,
+                "temp_max": 290.37,
+                "pressure": 1051,
+                "humidity": 50
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 0.6,
+                "deg": 50
+            },
+            "clouds": {
+                "all": 10
+            },
+            "dt": 1599625856,
+            "sys": {
+                "type": 5,
+                "id": 4861,
+                "country": "US",
+                "sunrise": 1599564254,
+                "sunset": 1599610338
+            },
+            "timezone": -18000,
+            "id": 4887399,
+            "name": "Brooklyn",
+            "cod": 207
+        },
+        {
+            "coord": {
+                "lon": -87.6298,
+                "lat": 41.8781
+            },
+            "weather": [
+                {
+                    "id": 300,
+                    "main": "Drizzle",
+                    "description": "light intensity drizzle",
+                    "icon": "09n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 289.86,
+                "feels_like": 288.15,
+                "temp_min": 289.26,
+                "temp_max": 290.37,
+                "pressure": 1021,
+                "humidity": 88
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 4.6,
+                "deg": 50
+            },
+            "clouds": {
+                "all": 90
+            },
+            "dt": 1599625856,
+            "sys": {
+                "type": 1,
+                "id": 4861,
+                "country": "US",
+                "sunrise": 1599564254,
+                "sunset": 1599610338
+            },
+            "timezone": -18000,
+            "id": 4887398,
+            "name": "Chicago",
+            "cod": 200
+        },
+        {
+            "coord": {
+                "lon": -81.5158,
+                "lat": 27.6648
+            },
+            "weather": [
+                {
+                    "id": 303,
+                    "main": "Drizzle",
+                    "description": "light intensity drizzle",
+                    "icon": "09n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 209.86,
+                "feels_like": 208.15,
+                "temp_min": 209.26,
+                "temp_max": 200.37,
+                "pressure": 1031,
+                "humidity": 48
+            },
+            "visibility": 20000,
+            "wind": {
+                "speed": 9.9,
+                "deg": 30
+            },
+            "clouds": {
+                "all": 30
+            },
+            "dt": 1599625856,
+            "sys": {
+                "type": 4,
+                "id": 4841,
+                "country": "US",
+                "sunrise": 1599564254,
+                "sunset": 1599610338
+            },
+            "timezone": -18000,
+            "id": 4887394,
+            "name": "Florida",
+            "cod": 204
+        },
+        {
+            "coord": {
+                "lon": -122.4194,
+                "lat": 37.7749
+            },
+            "weather": [
+                {
+                    "id": 300,
+                    "main": "Heavy Drizzle",
+                    "description": "Heavy intensity drizzle",
+                    "icon": "09n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 290.86,
+                "feels_like": 290.15,
+                "temp_min": 290.26,
+                "temp_max": 295.37,
+                "pressure": 1023,
+                "humidity": 84
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 3.6,
+                "deg": 89
+            },
+            "clouds": {
+                "all": 70
+            },
+            "dt": 1599625856,
+            "sys": {
+                "type": 3,
+                "id": 4863,
+                "country": "US",
+                "sunrise": 1599564254,
+                "sunset": 1599610338
+            },
+            "timezone": -18000,
+            "id": 4887399,
+            "name": "San Francisco",
+            "cod": 202
+        },
+        {
+            "coord": {
+                "lon": -74.0060,
+                "lat": 40.7128
+            },
+            "weather": [
+                {
+                    "id": 301,
+                    "main": "Cloudy",
+                    "description": "Heavy intensity drizzle",
+                    "icon": "09n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 283.86,
+                "feels_like": 283.15,
+                "temp_min": 284.26,
+                "temp_max": 290.37,
+                "pressure": 1023,
+                "humidity": 90
+            },
+            "visibility": 9000,
+            "wind": {
+                "speed": 3.6,
+                "deg": 45
+            },
+            "clouds": {
+                "all": 50
+            },
+            "dt": 1599625856,
+            "sys": {
+                "type": 2,
+                "id": 4862,
+                "country": "US",
+                "sunrise": 1599564254,
+                "sunset": 1599610338
+            },
+            "timezone": -18000,
+            "id": 4887399,
+            "name": "New York",
+            "cod": 201
+        },
+        {
+            "coord": {
+                "lon": 77.5946,
+                "lat": 12.9716
+            },
+            "weather": [
+                {
+                    "id": 343,
+                    "main": "Rainy",
+                    "description": "Heavy intensity Rainy",
+                    "icon": "09n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 343.86,
+                "feels_like": 343.15,
+                "temp_min": 343.26,
+                "temp_max": 343.37,
+                "pressure": 9923,
+                "humidity": 99
+            },
+            "visibility": 1000,
+            "wind": {
+                "speed": 13.6,
+                "deg": 15
+            },
+            "clouds": {
+                "all": 98
+            },
+            "dt": 1599625856,
+            "sys": {
+                "type": 3,
+                "id": 4222,
+                "country": "IN",
+                "sunrise": 1599564254,
+                "sunset": 1599610338
+            },
+            "timezone": -18000,
+            "id": 4899399,
+            "name": "Banglore",
+            "cod": 222
+        },
+        {
+            "coord": {
+                "lon": 78.4867,
+                "lat": 17.3850
+            },
+            "weather": [
+                {
+                    "id": 301,
+                    "main": "Rainy",
+                    "description": "Heavy intensity drizzle",
+                    "icon": "09n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 333.86,
+                "feels_like": 333.15,
+                "temp_min": 333.26,
+                "temp_max": 333.37,
+                "pressure": 1323,
+                "humidity": 13
+            },
+            "visibility": 13000,
+            "wind": {
+                "speed": 13.6,
+                "deg": 13
+            },
+            "clouds": {
+                "all": 13
+            },
+            "dt": 1599625856,
+            "sys": {
+                "type": 2,
+                "id": 4132,
+                "country": "IN",
+                "sunrise": 1599564254,
+                "sunset": 1599610338
+            },
+            "timezone": -18000,
+            "id": 4887139,
+            "name": "Hyderabad",
+            "cod": 213
+        },
+        {
+            "coord": {
+                "lon": 77.1025,
+                "lat": 28.7041
+            },
+            "weather": [
+                {
+                    "id": 312,
+                    "main": "Cloudy",
+                    "description": "Heavy intensity drizzle",
+                    "icon": "09n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 312.86,
+                "feels_like": 312.15,
+                "temp_min": 312.26,
+                "temp_max": 312.37,
+                "pressure": 2223,
+                "humidity": 20
+            },
+            "visibility": 1000,
+            "wind": {
+                "speed": 1.6,
+                "deg": 15
+            },
+            "clouds": {
+                "all": 10
+            },
+            "dt": 1599625856,
+            "sys": {
+                "type": 2,
+                "id": 4812,
+                "country": "IN",
+                "sunrise": 1599564254,
+                "sunset": 1599610338
+            },
+            "timezone": -18000,
+            "id": 4887399,
+            "name": "Delhi",
+            "cod": 212
+        }
+    ],
+    "id":"fnksbfksndflsdfnfldslf"
+}
