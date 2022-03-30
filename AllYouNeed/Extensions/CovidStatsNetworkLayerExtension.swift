@@ -9,11 +9,11 @@ import Foundation
 extension CovidStatsNetworkLayer {
     struct CoronaAPI {
         static let schema = "https"
-        static let host = "corona.lmao.ninja"
+        static let host = "disease.sh"
         
         fileprivate static var newsAPIKey: String {
             get {
-               // Step 1: Find the API_KEY plist file
+                // Step 1: Find the API_KEY plist file
                 guard let filePath = Bundle.main.path(forResource: "Info", ofType: "plist") else {
                     fatalError("plist not Found!")
                 }//:else
@@ -21,7 +21,7 @@ extension CovidStatsNetworkLayer {
                 // Step 2: Find the API Key
                 let plist = try?NSDictionary(contentsOf: URL(fileURLWithPath: filePath), error: ())
                 guard let value = plist?.object(forKey: "News_API_KEY") as? String else {
-                  fatalError("Couldn't find key 'API_KEY' in 'Info.plist'.")
+                    fatalError("Couldn't find key 'API_KEY' in 'Info.plist'.")
                 }
                 return value
             }//:Get
@@ -40,13 +40,13 @@ extension CovidStatsNetworkLayer {
         components.host = CoronaAPI.host
         
         if past {
-            components.path = "/v2/historical/\(country)"
+            components.path = "/v3/covid-19/historical/\(country)"
             components.queryItems = [
                 .init(name: "lastdays", value: "7")
             ]
         }
         else{
-            components.path = "/v2/countries/\(country)"
+            components.path = "/v3/covid-19/countries/\(country)"
             components.queryItems = [
                 .init(name: "yesterday", value: "false")
             ]
@@ -61,13 +61,13 @@ extension CovidStatsNetworkLayer {
         components.host = CoronaAPI.host
         
         if past {
-            components.path = "/v2/historical/all"
+            components.path = "/v3/covid-19/historical/all"
             components.queryItems = [
                 .init(name: "lastdays", value: "7")
             ]
         }
         else{
-            components.path = "/v2/all"
+            components.path = "/v3/covid-19/all"
             components.queryItems = [
                 .init(name: "today", value: "")
             ]

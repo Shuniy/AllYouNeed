@@ -11,7 +11,7 @@ struct CovidLiveDataView: View {
     //MARK: PROPERTIES
     @State private var showLoading:Bool = false
     @State private var shouldRefresh = false
-    var url = URL(string: "https://viruscovid.tech/")!
+    var url = URL(string: "https://covid19.who.int/")!
     
     //MARK: BODY
     var body: some View {
