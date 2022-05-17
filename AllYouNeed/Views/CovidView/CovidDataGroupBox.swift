@@ -25,7 +25,7 @@ struct CovidDataGroupBox: View {
                     Label(covidDataType.text.uppercased(), systemImage: covidDataType.image).padding(.vertical)
                     .foregroundColor(covidDataType.color)) {
             
-            ForEach(0..<cases.count) {index in
+                        ForEach(0..<cases.count, id:\.self) {index in
                 HStack {
                     Image(systemName: "hourglass.tophalf.filled")
                         .foregroundColor(covidDataType.color)

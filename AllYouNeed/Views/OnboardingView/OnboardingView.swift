@@ -13,7 +13,7 @@ struct OnboardingView: View {
     //MARK: BODY
     var body: some View {
         TabView {
-            ForEach(0..<onBoardingData.count) {
+            ForEach(0..<onBoardingData.count, id:\.self) {
                 index in
                 if index == onBoardingData.count - 1{
                     OnboardingCardView(data: onBoardingData[index], next: true)
